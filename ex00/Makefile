@@ -1,8 +1,9 @@
-NAME =
+NAME = fixed
 
 #ingredients 
 
-SRCS =	main.cpp
+SRCS =	main.cpp \
+		Fixed.cpp
 CPP = c++
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98 -Wpedantic -MP -MMD
 ODIR = obj/
