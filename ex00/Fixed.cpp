@@ -54,3 +54,17 @@ void Fixed::setRawBits(int const raw)
 // 	std::cout << "Copy constructor called\n";
 // 	*this = other;
 // }
+/*
+Fixed::Fixed() : fixedNum(0)
+{
+	std::cout << "Default constructor called\n";
+	setRawBits(0);
+}
+Fixed &Fixed::operator=(const Fixed &other)
+{
+	std::cout << "Copy assignment operator called\n";
+	if (this != &other)
+		setRawBits(other.getRawBits());
+	return *this;
+}	
+*/
