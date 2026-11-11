@@ -110,14 +110,14 @@ Fixed Fixed::operator-(const Fixed &other) const
 Fixed Fixed::operator*(const Fixed &other) const
 {
 	Fixed res;
-	res.setRawBits((this->fixedNum * other.fixedNum)/(1 << fractNum)); //overflow can happen
+	res.setRawBits(((long)this->fixedNum * (long)other.fixedNum)/(1 << fractNum));
 	return res;
 }
 
 Fixed Fixed::operator/(const Fixed &other) const
 {
 	Fixed res;
-	res.setRawBits(((this->fixedNum * (1 << fractNum)) / other.fixedNum)); //overflow can happen even faster
+	res.setRawBits((((long)this->fixedNum * (1 << fractNum)) / other.fixedNum));
 	return res;
 }
 

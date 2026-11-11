@@ -18,18 +18,3 @@ int main()
 	
 	return 0;
 }
-
-// int main()
-// {
-// 	Fixed a;
-
-//     std::cout << a << std::endl;
-//     std::cout << ++a << std::endl;
-//     std::cout << a << std::endl;
-//     std::cout << a++ << std::endl;
-//     std::cout << a << std::endl;
-//     std::cout << --a << std::endl;
-//     std::cout << a-- << std::endl;
-//     std::cout << a << std::endl;
-// 	return 0;
-// }
