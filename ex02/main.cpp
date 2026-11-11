@@ -15,6 +15,17 @@ int main()
 	std::cout << b << std::endl;
 	
 	std::cout << Fixed::max( a, b ) << std::endl;
-	
+	std::cout << Fixed::max( a, b ) << std::endl;
+
+	Fixed c(5);
+	Fixed d(10);
+
+	std::cout << (c <= d) << std::endl;
+	std::cout << (c >= d) << std::endl;
+	std::cout << (c != d) << std::endl;
+	std::cout << (c == d) << std::endl;
+	std::cout << (c / d) << std::endl;
+	std::cout << (c * d) << std::endl;
+
 	return 0;
 }
