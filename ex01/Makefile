@@ -1,4 +1,4 @@
-NAME = fixed2
+NAME = fixed1
 
 #ingredients 
 
